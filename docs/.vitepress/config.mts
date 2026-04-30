@@ -1,28 +1,21 @@
-import { defineConfig } from 'vitepress'
+import {defineConfig} from 'vitepress'
+import nav from './nav'
+import sidebar from "./sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "codecwg-note",
-  description: "描述",
+  title: "浮生若梦",
+  description: "行于人间，观山看水，记些旧事，写些闲心。\n世事如风，来去无声；唯愿以字为灯，照见一隅清明。",
+  base: '/note-vite-press/',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
-    ],
-
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
-
+    search: {
+      provider: 'local'
+    },
+    // @ts-ignore
+    nav,
+    sidebar,
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      {icon: 'github', link: 'https://github.com/vuejs/vitepress'}
     ]
   }
 })
