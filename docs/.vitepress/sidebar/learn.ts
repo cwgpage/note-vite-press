@@ -22,11 +22,23 @@ export const learnList = [
 
 export const learnHtmlList =  [
   {
-    text: 'HTML',
+    text: '基础',
     collapsed: false,
     items: [
       {
         text: '什么是HTML', 
+        link: '/learning/html',
+      },
+      {text: 'CSS', link: '/learning/css'},
+      {text: 'JavaScript', link: '/learning/JavaScript'},
+    ]
+  },
+  {
+    text: '标签',
+    collapsed: false,
+    items: [
+      {
+        text: '表单', 
         link: '/learning/html',
       },
       {text: 'CSS', link: '/learning/css'},

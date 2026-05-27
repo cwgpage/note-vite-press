@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 人间旧事
-      link: /markdown-examples
+      link: /learning
     - theme: alt
       text: 此身何处
-      link: /api-examples
+      link: /tutorial
 
 features:
   - title: Feature A
