@@ -13,12 +13,7 @@ const nav = [
   },
   {
     text: '学习',
-    link: '/markdown-examples',
-    items: [
-      {text: '前端', link: '/markdown-examples'},
-      {text: '后端', link: '/api-examples'},
-      {text: '工具/库', link: '/api-examples'},
-    ]
+    link: '/learning/index',
   },
   {text: 'Examples', link: '/markdown-examples'}
 
