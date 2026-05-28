@@ -1,10 +1,16 @@
-import {learnList, learnHtmlList} from './learn'
+import {learnList, learnHtmlList, learnCSSList, learnReplenishList,learnJsList} from './learn'
 import {tutorialList} from './tutorial'
 
 const sidebar = {
-  "/tutorial/": tutorialList,
+ // 学习
   "/learning/": learnList,
   "/learning/html/": learnHtmlList,
+  "/learning/css/": learnCSSList,
+  "/learning/JavaScript/": learnJsList,
+  "/learning/replenish/": learnReplenishList,
+  // 教程
+  "/tutorial/": tutorialList,
+  // 推荐
 }
 
 
