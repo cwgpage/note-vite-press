@@ -10,9 +10,9 @@
     <link rel="preload stylesheet" href="/note-vite-press/assets/style.BlQe1dpa.css" as="style">
     <link rel="preload stylesheet" href="/note-vite-press/vp-icons.css" as="style">
     
-    <script type="module" src="/note-vite-press/assets/app.Br1diRkZ.js"></script>
+    <script type="module" src="/note-vite-press/assets/app.BjTwXFbN.js"></script>
     <link rel="preload" href="/note-vite-press/assets/inter-roman-latin.Di8DUHzh.woff2" as="font" type="font/woff2" crossorigin="">
-    <link rel="modulepreload" href="/note-vite-press/assets/chunks/theme.BQhUs8P8.js">
+    <link rel="modulepreload" href="/note-vite-press/assets/chunks/theme.M_uDUd_y.js">
     <link rel="modulepreload" href="/note-vite-press/assets/chunks/framework.DCIP8pFz.js">
     <link rel="modulepreload" href="/note-vite-press/assets/api-examples.md.BEBHV0jn.lean.js">
     <script id="check-dark-mode">(()=>{const e=localStorage.getItem("vitepress-theme-appearance")||"auto",a=window.matchMedia("(prefers-color-scheme: dark)").matches;(!e||e==="auto"?a:e==="dark")&&document.documentElement.classList.add("dark")})();</script>
@@ -70,17 +70,6 @@
     }
   ],
   &quot;sidebar&quot;: {
-    &quot;/tutorial/&quot;: [
-      {
-        &quot;text&quot;: &quot;插件&quot;,
-        &quot;items&quot;: [
-          {
-            &quot;text&quot;: &quot;1&quot;,
-            &quot;link&quot;: &quot;/learning/html&quot;
-          }
-        ]
-      }
-    ],
     &quot;/learning/&quot;: [
       {
         &quot;text&quot;: &quot; 基础&quot;,
@@ -95,7 +84,7 @@
           },
           {
             &quot;text&quot;: &quot;JavaScript&quot;,
-            &quot;link&quot;: &quot;/learning/JavaScript&quot;
+            &quot;link&quot;: &quot;/learning/JavaScript/base/base&quot;
           }
         ]
       },
@@ -111,6 +100,15 @@
             &quot;link&quot;: &quot;/learning/react&quot;
           }
         ]
+      },
+      {
+        &quot;text&quot;: &quot;其它&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;知识补充&quot;,
+            &quot;link&quot;: &quot;/learning/replenish&quot;
+          }
+        ]
       }
     ],
     &quot;/learning/html/&quot;: [
@@ -120,15 +118,7 @@
         &quot;items&quot;: [
           {
             &quot;text&quot;: &quot;什么是HTML&quot;,
-            &quot;link&quot;: &quot;/learning/html&quot;
-          },
-          {
-            &quot;text&quot;: &quot;CSS&quot;,
-            &quot;link&quot;: &quot;/learning/css&quot;
-          },
-          {
-            &quot;text&quot;: &quot;JavaScript&quot;,
-            &quot;link&quot;: &quot;/learning/JavaScript&quot;
+            &quot;link&quot;: &quot;/learning/html/base/base&quot;
           }
         ]
       },
@@ -137,16 +127,123 @@
         &quot;collapsed&quot;: false,
         &quot;items&quot;: [
           {
-            &quot;text&quot;: &quot;表单&quot;,
+            &quot;text&quot;: &quot;容器标签&quot;,
+            &quot;link&quot;: &quot;/learning/html/tag/view&quot;
+          },
+          {
+            &quot;text&quot;: &quot;基础内容&quot;,
+            &quot;link&quot;: &quot;/learning/html/tag/content&quot;
+          },
+          {
+            &quot;text&quot;: &quot;媒体标签&quot;,
+            &quot;link&quot;: &quot;/learning/html/tag/media&quot;
+          },
+          {
+            &quot;text&quot;: &quot;表单标签&quot;,
+            &quot;link&quot;: &quot;/learning/html/tag/form&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/learning/css/&quot;: [
+      {
+        &quot;text&quot;: &quot;基础&quot;,
+        &quot;link&quot;: &quot;/learning/css/base/base&quot;
+      },
+      {
+        &quot;text&quot;: &quot;基本样式&quot;,
+        &quot;link&quot;: &quot;/learning/css/style/base&quot;
+      },
+      {
+        &quot;text&quot;: &quot;CSS变量&quot;,
+        &quot;link&quot;: &quot;/learning/css/variable&quot;
+      }
+    ],
+    &quot;/learning/JavaScript/&quot;: [
+      {
+        &quot;text&quot;: &quot;JavaScript教程&quot;,
+        &quot;collapsed&quot;: false,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;介绍&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/intro&quot;
+          },
+          {
+            &quot;text&quot;: &quot;基础语法&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/base&quot;
+          },
+          {
+            &quot;text&quot;: &quot;数据类型&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/base&quot;
+          },
+          {
+            &quot;text&quot;: &quot;循环&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/cycle&quot;
+          },
+          {
+            &quot;text&quot;: &quot;字符串&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/String&quot;
+          },
+          {
+            &quot;text&quot;: &quot;数字&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/Number&quot;
+          },
+          {
+            &quot;text&quot;: &quot;数组&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/Array&quot;
+          },
+          {
+            &quot;text&quot;: &quot;函数&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/Function&quot;
+          },
+          {
+            &quot;text&quot;: &quot;对象&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/Object&quot;
+          },
+          {
+            &quot;text&quot;: &quot;类&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/Class&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;基础库&quot;,
+        &quot;collapsed&quot;: false,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;什么是JavaScript&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/base&quot;
+          }
+        ]
+      },
+      {
+        &quot;text&quot;: &quot;常用方法&quot;,
+        &quot;collapsed&quot;: false,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;文件处理&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/base&quot;
+          },
+          {
+            &quot;text&quot;: &quot;时间处理&quot;,
+            &quot;link&quot;: &quot;/learning/JavaScript/base/base&quot;
+          }
+        ]
+      }
+    ],
+    &quot;/learning/replenish/&quot;: [
+      {
+        &quot;text&quot;: &quot;补充1&quot;,
+        &quot;link&quot;: &quot;/learning/replenish/index&quot;
+      }
+    ],
+    &quot;/tutorial/&quot;: [
+      {
+        &quot;text&quot;: &quot;插件&quot;,
+        &quot;items&quot;: [
+          {
+            &quot;text&quot;: &quot;1&quot;,
             &quot;link&quot;: &quot;/learning/html&quot;
-          },
-          {
-            &quot;text&quot;: &quot;CSS&quot;,
-            &quot;link&quot;: &quot;/learning/css&quot;
-          },
-          {
-            &quot;text&quot;: &quot;JavaScript&quot;,
-            &quot;link&quot;: &quot;/learning/JavaScript&quot;
           }
         ]
       }
@@ -170,7 +267,7 @@
 }</pre><h3 id="page-frontmatter" tabindex="-1">Page Frontmatter <a class="header-anchor" href="#page-frontmatter" aria-label="Permalink to &quot;Page Frontmatter&quot;">​</a></h3><pre>{
   &quot;outline&quot;: &quot;deep&quot;
 }</pre><h2 id="more" tabindex="-1">More <a class="header-anchor" href="#more" aria-label="Permalink to &quot;More&quot;">​</a></h2><p>Check out the documentation for the <a href="https://vitepress.dev/reference/runtime-api#usedata" target="_blank" rel="noreferrer">full list of runtime APIs</a>.</p></div></div></main><footer class="VPDocFooter" data-v-2581a411 data-v-56006ac3><!--[--><!--]--><!----><!----></footer><!--[--><!--]--></div></div></div><!--[--><!--]--></div></div><!----><!--[--><!--]--></div></div>
-    <script>window.__VP_HASH_MAP__=JSON.parse("{\"api-examples.md\":\"BEBHV0jn\",\"index.md\":\"CPl3wxW5\",\"learning_css_base.md\":\"Kx-nf31-\",\"learning_css_index.md\":\"BcJBlwfA\",\"learning_html_base.md\":\"sWEw0VgG\",\"learning_html_index.md\":\"By374fmP\",\"learning_index.md\":\"D0JDPhgb\",\"learning_javascript_base.md\":\"BYEBxwRg\",\"learning_javascript_index.md\":\"DLUd9VHf\",\"learning_nodejs_base.md\":\"Ctq31DB-\",\"learning_nodejs_index.md\":\"B4IgLfYS\",\"learning_python_base.md\":\"w7PAI62o\",\"learning_python_index.md\":\"CBCk6jKp\",\"learning_react_base.md\":\"Dx9QSF5K\",\"learning_react_index.md\":\"bTaCPaJY\",\"learning_tool_index.md\":\"D7gHyz-s\",\"learning_tool_vue-page-stack.md\":\"DHoqgaiq\",\"learning_vue_base.md\":\"Cyd-BGf_\",\"learning_vue_index.md\":\"aQ8j87-t\",\"markdown-examples.md\":\"CcipH9Ei\",\"recommend_plugin_index.md\":\"cMCMtBq4\",\"recommend_tool_index.md\":\"BUHW2iUM\",\"tutorial_index.md\":\"CkOns9Wt\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"浮生若梦\",\"description\":\"行于人间，观山看水，记些旧事，写些闲心。\\n世事如风，来去无声；唯愿以字为灯，照见一隅清明。\",\"base\":\"/note-vite-press/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"search\":{\"provider\":\"local\"},\"nav\":[{\"text\":\"推荐\",\"items\":[{\"text\":\"应用\",\"link\":\"/markdown-examples\"},{\"text\":\"浏览器插件\",\"link\":\"/api-examples\"},{\"text\":\"VSCode插件\",\"link\":\"/api-examples\"}]},{\"text\":\"教程\",\"link\":\"/note/tutorial/index\"},{\"text\":\"学习\",\"link\":\"/learning/index\"},{\"text\":\"Examples\",\"link\":\"/markdown-examples\"}],\"sidebar\":{\"/tutorial/\":[{\"text\":\"插件\",\"items\":[{\"text\":\"1\",\"link\":\"/learning/html\"}]}],\"/learning/\":[{\"text\":\" 基础\",\"items\":[{\"text\":\"HTML\",\"link\":\"/learning/html\"},{\"text\":\"CSS\",\"link\":\"/learning/css\"},{\"text\":\"JavaScript\",\"link\":\"/learning/JavaScript\"}]},{\"text\":\"框架\",\"items\":[{\"text\":\"Vue\",\"link\":\"/learning/vue\"},{\"text\":\"React\",\"link\":\"/learning/react\"}]}],\"/learning/html/\":[{\"text\":\"基础\",\"collapsed\":false,\"items\":[{\"text\":\"什么是HTML\",\"link\":\"/learning/html\"},{\"text\":\"CSS\",\"link\":\"/learning/css\"},{\"text\":\"JavaScript\",\"link\":\"/learning/JavaScript\"}]},{\"text\":\"标签\",\"collapsed\":false,\"items\":[{\"text\":\"表单\",\"link\":\"/learning/html\"},{\"text\":\"CSS\",\"link\":\"/learning/css\"},{\"text\":\"JavaScript\",\"link\":\"/learning/JavaScript\"}]}]},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}]},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
+    <script>window.__VP_HASH_MAP__=JSON.parse("{\"api-examples.md\":\"BEBHV0jn\",\"index.md\":\"CPl3wxW5\",\"learning_css_base_base.md\":\"CgToK42f\",\"learning_css_index.md\":\"BcJBlwfA\",\"learning_css_style_base.md\":\"BJzKEFzp\",\"learning_css_variable.md\":\"B03hadHn\",\"learning_html_base_base.md\":\"Ccr7rkt_\",\"learning_html_index.md\":\"By374fmP\",\"learning_html_tag_content.md\":\"CzpEz-KT\",\"learning_html_tag_form.md\":\"C8gH9PtT\",\"learning_html_tag_media.md\":\"CPyexSx9\",\"learning_html_tag_view.md\":\"DOwgB9GC\",\"learning_index.md\":\"D0JDPhgb\",\"learning_javascript_base_array.md\":\"ChiFC3TR\",\"learning_javascript_base_base.md\":\"D41HMvQS\",\"learning_javascript_base_class.md\":\"CTJak3HF\",\"learning_javascript_base_cycle.md\":\"DXEh_VfB\",\"learning_javascript_base_data-type.md\":\"B0jnwkeN\",\"learning_javascript_base_function.md\":\"DcdiupSW\",\"learning_javascript_base_intro.md\":\"DgL-UV8N\",\"learning_javascript_base_number.md\":\"DtgHRPgE\",\"learning_javascript_base_object.md\":\"DGlZpqkO\",\"learning_javascript_base_string.md\":\"BMmYrX9E\",\"learning_javascript_index.md\":\"9TfuBW59\",\"learning_nodejs_base.md\":\"Ctq31DB-\",\"learning_nodejs_index.md\":\"B4IgLfYS\",\"learning_python_base.md\":\"w7PAI62o\",\"learning_python_index.md\":\"CBCk6jKp\",\"learning_react_base.md\":\"Dx9QSF5K\",\"learning_react_index.md\":\"bTaCPaJY\",\"learning_replenish_index.md\":\"FdUrBqSE\",\"learning_tool_index.md\":\"D7gHyz-s\",\"learning_tool_vue-page-stack.md\":\"DHoqgaiq\",\"learning_vue_base.md\":\"Cyd-BGf_\",\"learning_vue_index.md\":\"aQ8j87-t\",\"markdown-examples.md\":\"CcipH9Ei\",\"recommend_plugin_index.md\":\"cMCMtBq4\",\"recommend_tool_index.md\":\"BUHW2iUM\",\"tutorial_index.md\":\"CkOns9Wt\"}");window.__VP_SITE_DATA__=JSON.parse("{\"lang\":\"en-US\",\"dir\":\"ltr\",\"title\":\"浮生若梦\",\"description\":\"行于人间，观山看水，记些旧事，写些闲心。\\n世事如风，来去无声；唯愿以字为灯，照见一隅清明。\",\"base\":\"/note-vite-press/\",\"head\":[],\"router\":{\"prefetchLinks\":true},\"appearance\":true,\"themeConfig\":{\"search\":{\"provider\":\"local\"},\"nav\":[{\"text\":\"推荐\",\"items\":[{\"text\":\"应用\",\"link\":\"/markdown-examples\"},{\"text\":\"浏览器插件\",\"link\":\"/api-examples\"},{\"text\":\"VSCode插件\",\"link\":\"/api-examples\"}]},{\"text\":\"教程\",\"link\":\"/note/tutorial/index\"},{\"text\":\"学习\",\"link\":\"/learning/index\"},{\"text\":\"Examples\",\"link\":\"/markdown-examples\"}],\"sidebar\":{\"/learning/\":[{\"text\":\" 基础\",\"items\":[{\"text\":\"HTML\",\"link\":\"/learning/html\"},{\"text\":\"CSS\",\"link\":\"/learning/css\"},{\"text\":\"JavaScript\",\"link\":\"/learning/JavaScript/base/base\"}]},{\"text\":\"框架\",\"items\":[{\"text\":\"Vue\",\"link\":\"/learning/vue\"},{\"text\":\"React\",\"link\":\"/learning/react\"}]},{\"text\":\"其它\",\"items\":[{\"text\":\"知识补充\",\"link\":\"/learning/replenish\"}]}],\"/learning/html/\":[{\"text\":\"基础\",\"collapsed\":false,\"items\":[{\"text\":\"什么是HTML\",\"link\":\"/learning/html/base/base\"}]},{\"text\":\"标签\",\"collapsed\":false,\"items\":[{\"text\":\"容器标签\",\"link\":\"/learning/html/tag/view\"},{\"text\":\"基础内容\",\"link\":\"/learning/html/tag/content\"},{\"text\":\"媒体标签\",\"link\":\"/learning/html/tag/media\"},{\"text\":\"表单标签\",\"link\":\"/learning/html/tag/form\"}]}],\"/learning/css/\":[{\"text\":\"基础\",\"link\":\"/learning/css/base/base\"},{\"text\":\"基本样式\",\"link\":\"/learning/css/style/base\"},{\"text\":\"CSS变量\",\"link\":\"/learning/css/variable\"}],\"/learning/JavaScript/\":[{\"text\":\"JavaScript教程\",\"collapsed\":false,\"items\":[{\"text\":\"介绍\",\"link\":\"/learning/JavaScript/base/intro\"},{\"text\":\"基础语法\",\"link\":\"/learning/JavaScript/base/base\"},{\"text\":\"数据类型\",\"link\":\"/learning/JavaScript/base/base\"},{\"text\":\"循环\",\"link\":\"/learning/JavaScript/base/cycle\"},{\"text\":\"字符串\",\"link\":\"/learning/JavaScript/base/String\"},{\"text\":\"数字\",\"link\":\"/learning/JavaScript/base/Number\"},{\"text\":\"数组\",\"link\":\"/learning/JavaScript/base/Array\"},{\"text\":\"函数\",\"link\":\"/learning/JavaScript/base/Function\"},{\"text\":\"对象\",\"link\":\"/learning/JavaScript/base/Object\"},{\"text\":\"类\",\"link\":\"/learning/JavaScript/base/Class\"}]},{\"text\":\"基础库\",\"collapsed\":false,\"items\":[{\"text\":\"什么是JavaScript\",\"link\":\"/learning/JavaScript/base/base\"}]},{\"text\":\"常用方法\",\"collapsed\":false,\"items\":[{\"text\":\"文件处理\",\"link\":\"/learning/JavaScript/base/base\"},{\"text\":\"时间处理\",\"link\":\"/learning/JavaScript/base/base\"}]}],\"/learning/replenish/\":[{\"text\":\"补充1\",\"link\":\"/learning/replenish/index\"}],\"/tutorial/\":[{\"text\":\"插件\",\"items\":[{\"text\":\"1\",\"link\":\"/learning/html\"}]}]},\"socialLinks\":[{\"icon\":\"github\",\"link\":\"https://github.com/vuejs/vitepress\"}]},\"locales\":{},\"scrollOffset\":134,\"cleanUrls\":false}");</script>
     
   </body>
 </html>
